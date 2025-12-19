@@ -157,4 +157,158 @@ footer {
     color: white;
     padding: 50px;
     text-align: center;
+}/* HAMBURGER ICON */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
 }
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+}
+
+/* MOBILE MENU */
+@media (max-width: 768px) {
+
+    nav {
+        display: none;
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        background: white;
+        padding: 20px 0;
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+/* TESTIMONIALS */
+.testimonials {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* NEWSLETTER */
+.news-letter {
+    background: #111;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.newsletter {
+    max-width: 500px;
+    margin: auto;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.emailinput {
+    width: 100%;
+    max-width: 320px;
+    height: 45px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+}
+
+.btn {
+    background: rgb(255, 183, 0);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/* GET INSPIRED */
+.special {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.special div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.special img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* FOOTER */
+.footer {
+    background: #2c2c2c;
+    color: white;
+    padding: 50px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-section {
+    max-width: 260px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section a {
+    color: white;
+}
+
+.social-icons a {
+    margin: 0 8px;
+    font-size: 18px;
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+/* MOBILE TWEAKS */
+@media (max-width: 600px) {
+    .newsletter-form {
+        width: 100%;
+    }
+}
+
