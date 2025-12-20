@@ -297,6 +297,14 @@ footer {
     font-size: 18px;
     color: white;
 }
+<div class="cards">
+    <img style="border: 2px solid #ff3d0036;" src="friesnew2.png" class="menu">
+    <h3>HAM BUGGER</h3>
+    <p style="font-weight: bold;">
+        Carefully made with high-quality ingredients to provide a memorable taste.
+    </p>
+</div>
+
 
 .footer-bottom {
     text-align: center;
@@ -311,4 +319,5 @@ footer {
         width: 100%;
     }
 }
+
 
